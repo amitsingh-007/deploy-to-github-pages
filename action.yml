@@ -1,11 +1,11 @@
-name: "Deploy React to GitHub Pages"
+name: "Deploy React code to GitHub Pages"
 description: "Action to automatically deploy ypur React code to GithHub Pages on push."
 author: "amitsingh-007"
 branding:
   color: "purple"
   icon: "cloud-lightning"
 
-run:
+runs:
   using: "composite"
   steps:
     - run: npm ci
